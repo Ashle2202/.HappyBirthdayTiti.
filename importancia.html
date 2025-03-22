@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo importante que eres para mí</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #b3d9ff;
+            color: #003366;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            animation: slideUp 1.5s ease-in-out;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #005bb5;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            opacity: 0;
+            animation: fadeInText 2s forwards;
+        }
+        .button {
+            display: inline-block;
+            background: #003366;
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            border-radius: 10px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .button:hover {
+            background: #005bb5;
+            transform: scale(1.05);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeInText {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lo importante que eres para mí 💙</h1>
+        <p>Desde que tengo memoria, has sido una de las personas más importantes en mi vida. No solo porque eres mi tía, sino porque te has convertido en mi refugio, en mi consejera, en mi apoyo incondicional, en mi rayo de luz en los días oscuros.</p>
+        <p>Me has visto crecer y cada año de mi vida ha estado acompañado por el tuyo. Has estado en mis alegrías y en mis tristezas, celebrando mis triunfos como si fueran los tuyos y secando mis lágrimas con tus palabras cuando el mundo parece demasiado difícil de enfrentar.</p>
+        <p>Titi, tú eres el significado de la palabra familia. En tus palabras encuentro consuelo y sabiduría; en tus gestos, amor puro y sincero.</p>
+        <a href="index.html" class="button">Regresar</a>
+    </div>
+</body>
+</html>

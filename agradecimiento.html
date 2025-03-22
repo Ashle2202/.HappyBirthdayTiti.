@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo lo que agradezco de ti</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #b3d9ff;
+            color: #003366;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            animation: slideUp 1.5s ease-in-out;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #005bb5;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            opacity: 0;
+            animation: fadeInText 2s forwards;
+        }
+        .button {
+            display: inline-block;
+            background: #003366;
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            border-radius: 10px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .button:hover {
+            background: #005bb5;
+            transform: scale(1.05);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeInText {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo lo que agradezco de ti 🙏</h1>
+        <p>No sé cómo agradecerte todo lo que has hecho por mí. No sé cómo expresarte lo afortunada que me siento de tenerte en mi vida. Nuestro lazo no es solo de sangre, es un lazo de amor y lealtad. De esos que duran para toda la vida y más allá.</p>
+        <p>Gracias por cada consejo, por cada regaño con amor (a veces me maltratas 😜), por cada palabra de aliento y por cada momento que me has regalado.</p>
+        <p>Gracias por ser mi confidente, mi cómplice, mi apoyo inquebrantable.</p>
+        <p>Gracias por celebrar mis triunfos y ayudarme a levantarme cuando caigo.</p>
+        <p>Gracias por ser mi Titi, la persona que más amo en este mundo.</p>
+        <a href="index.html" class="button">Regresar</a>
+    </div>
+</body>
+</html>

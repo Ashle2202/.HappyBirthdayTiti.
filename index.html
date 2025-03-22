@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños, Titi!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b3d9ff;
+            text-align: center;
+            color: #003366;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .gallery img {
+            width: 150px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .message {
+            font-size: 1.5em;
+            background: #0066cc;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 20px;
+            animation: bounce 1.5s infinite;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .button {
+            background: #003366;
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 10px;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #005bb5;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Feliz Cumpleaños, Titi! 🎂💙</h1>
+        <p class="message">Eres mi mejor amiga, mi segunda mamá, mi refugio en los días difíciles y
+        <br> la persona que siempre me apoya.💖</p>
+        
+        <h2> ¿Como no amar a esta colochita? 💙</h2>
+        <div class="gallery">
+            <img src="img/https://github.com/Ashle2202/HappyBirthdayTiti/blob/main/graduacion.jpg?raw=true" alt="Foto 1">
+            <img src="img/https://github.com/Ashle2202/HappyBirthdayTiti/blob/main/graduacion.jpg?raw=true" alt="Foto 2">
+        </div>
+        
+        <h2>Más sobre nuestro lazo especial 💕</h2>
+        <div class="buttons">
+            <a href="importancia.html" class="button">Lo importante que eres para mí 💙</a>
+            <a href="agradecimiento.html" class="button">Todo lo que agradezco de ti 🙏</a>
+            <a href="bendiciones.html" class="button">Mis deseos para ti 🎁</a>
+        </div>
+    </div>
+</body>
+</html>
